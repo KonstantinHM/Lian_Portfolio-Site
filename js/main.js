@@ -1,4 +1,17 @@
+// site-menu search-field slide-left function
+
+function openSearchField() {
+	var field = document.getElementById('searchField')
+
+	if (field.style.right == '-540px') {
+		field.style.right = '-1140px';
+	} else {
+		field.style.right = '-540px';
+	}
+};
+
 // main-slider function
+
 jQuery(document).ready(function($) {
 	$('.owl-carousel').owlCarousel({
 		loop:true,
@@ -84,5 +97,42 @@ function openShareList() {
 	} else {
 		shareList.style.display = 'block';
 		activeBtn[0].classList.add('share-btn_active');
+	}
+};
+
+
+// blog page - open/close recent-post widget function
+
+function openRecentPostWidget() {
+	var	content = document.getElementById('recent-posts_content');
+
+	if (content.style.display == 'none') {
+		content.style.display = 'block';
+	} else {
+		content.style.display = 'none';
+	}
+};
+
+// blog page - open/close popular-tags widget function
+
+function openTagsWidget() {
+	var	content = document.getElementById('popular-tags_content');
+
+	if (content.style.display == 'none') {
+		content.style.display = 'block';
+	} else {
+		content.style.display = 'none';
+	}
+};
+
+// blog page - open/close popular-tags widget function
+
+function openInstagramWidget() {
+	var	content = document.getElementById('instagram-thumb-post_content');
+
+	if (content.style.display == 'none') {
+		content.style.display = 'block';
+	} else {
+		content.style.display = 'none';
 	}
 };

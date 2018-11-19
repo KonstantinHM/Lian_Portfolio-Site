@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lian Contact</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Roboto|Roboto:100|Roboto:300|Roboto:700" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<nav>
+				<img src="img/logo.png" alt="">
+				<ul class="menu">
+					<li>
+						<div class="menu-linkLine"></div>
+						<a href="home.html">Home</a>
+					</li>
+					<li>
+						<div class="menu-linkLine"></div>
+						<a href="about.html">About</a>
+					</li>
+					<li>
+						<div class="menu-linkLine"></div>
+						<a href="portfolio.html">Portfolio</a>
+					</li>
+					<li>
+						<div class="menu-linkLine"></div>
+						<a href="blog.html">Blog</a>
+					</li>
+					<li>
+						<div class="activePage-linkLine"></div>
+						<a class="activePage" href="#contact">Contact</a>
+					</li>
+					<li>
+						<i class="fas fa-search" onclick="openSearchField()"></i>
+					</li>
+				</ul>
+				<input type="text" placeholder="Search..." id="searchField" class="search-field"></input>
+			</nav>
+		</div>
+	</header>
+	<section class="contact_heading">
+		<img src="img/aboutHeading-bg.png" alt="">
+		<div class="container">
+			<div class="contact_heading-text_wrapper">
+				<h2>Get in Touch</h2>
+				<p>Contact us Today</p>
+			</div>
+		</div>
+	</section>
+	<section class="contact-body">
+		<div class="container">
+			<div class="contact-details_wrapper">
+				<div class="contact-details_heading">
+					<h2>Office Info</h2>
+					<p>People Behind the Success of our Company</p>
+					<div class="contact-details_heading-line"></div>
+				</div>
+				<div class="contact-details_footer">
+					<p class="contact-details_hours"><span>Office Hours:</span>  Mon-Friday 8am - 10pm</p>
+					<p class="contact-details_adress"><span>Address:</span> Igbalangao, Bugasong, Antique</p>
+					<p><span>Tell:</span>  <span class="contact-details_numbers">123-456-7890</span></p>
+					<p><span>Fax:</span>  <span class="contact-details_numbers">123-456-7890</span></p>
+				</div>
+			</div>
+			<div class="contact-form_wrapper">
+				<form action="" class="contact-form">
+					<input type="text" class="contact-name" placeholder="Name">
+					<input type="text" class="contact-email" placeholder="Email">
+					<textarea name="" id="" class="contact-message" placeholder="Message"></textarea>
+					<button class="contact_send-message-btn">Send message</button>
+				</form>
+			</div>
+		</div>
+	</section>
+	<section class="map-wrapper">
+		<div id="map" class="map"></div>
+	</section>
+	<section class="values">
+		<div class="container">
+			<div class="section-title">
+				<h2>Our Values</h2>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.</p>
+			</div>
+			<div class="values-wrapper">
+				<div class="values-item">
+					<img src="img/values(1_image).png" alt="">
+					<div class="values-item_text-wrapper">
+						<h3>Who We Are</h3>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
+					</div>
+				</div>
+				<div class="values-item">
+					<img src="img/values(2_image).png" alt="">
+					<div class="values-item_text-wrapper">
+						<h3>Our Vision</h3>
+						<p>Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me.</p>
+					</div>
+				</div>
+				<div class="values-item">
+					<img src="img/values(3_image).png" alt="">
+					<div class="values-item_text-wrapper">
+						<h3>Our Mission</h3>
+						<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<img src="img/logoFooter.png" alt="">
+		<div class="socials_wrapper">
+			<i class="fab fa-facebook-f"></i>
+			<i class="fab fa-google-plus-g"></i>
+			<i class="fab fa-twitter"></i>
+			<i class="fab fa-linkedin-in"></i>
+			<i class="fas fa-basketball-ball"></i>
+			<i class="fab fa-pinterest-p"></i>
+			<i class="fab fa-instagram"></i>
+		</div>
+		<p>© 2016 <span>Mulitix Theme</span> by ThemeForces. All Rights Reserved.</p>
+	</footer>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://api-maps.yandex.ru/2.1/?apikey=8f139ffa-db50-49a0-9ab2-938d49b4d83c&lang=ru_RU" type="text/javascript"></script>
+	<script src="js/yandex-map.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

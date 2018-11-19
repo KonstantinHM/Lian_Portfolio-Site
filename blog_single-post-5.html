@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lian Blog</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Roboto|Roboto:100|Roboto:300|Roboto:500|Roboto:700" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<nav>
+				<img src="img/logo.png" alt="">
+				<ul class="menu">
+					<li>
+						<div class="menu-linkLine"></div>
+						<a href="home.html">Home</a>
+					</li>
+					<li>
+						<div class="menu-linkLine"></div>
+						<a href="about.html">About</a>
+					</li>
+					<li>
+						<div class="menu-linkLine"></div>
+						<a href="portfolio.html">Portfolio</a>
+					</li>
+					<li>
+						<div class="activePage-linkLine"></div>
+						<a class="activePage" href="blog.html">Blog</a>
+					</li>
+					<li>
+						<div class="menu-linkLine"></div>
+						<a href="contact.html">Contact</a>
+					</li>
+					<li>
+						<i class="fas fa-search" onclick="openSearchField()"></i>
+					</li>
+				</ul>
+				<input type="text" placeholder="Search..." id="searchField" class="search-field"></input>
+			</nav>
+		</div>
+	</header>
+	<section class="blog_heading">
+		<img src="img/blogHeading-bg.png" alt="">
+		<div class="container">
+			<div class="blog_heading-text_wrapper">
+				<h2>News about Lian</h2>
+				<p>Latest News & Insights</p>
+			</div>
+		</div>
+	</section>
+	<section class="single-post_wrapper">
+		<div class="container">
+			<div class="single-post_container">
+				<div class="single-post_title-wrapper">
+					<h2>I am a Blog Post with an Awesome Image</h2>
+					<div class="single-post_info">
+						<p class="single-pos_author">by Jenn Pereira</p>
+						<p class="single-post_date">February 28, 2015</p>
+						<p class="single-post_likes"><i class="far fa-heart"></i>324 likes</p>
+					</div>
+				</div>
+				<div class="single-post_video-wrapper">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/DR9s88XLBf0?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+				<div class="single-post_form-wrapper">
+					<div class="single-post_form-title">Leave a comment</div>
+					<form action="">
+						<input type="text" placeholder="Name">
+						<input type="text" placeholder="Email">
+						<input type="text" placeholder="Website">
+						<textarea name="" id="" placeholder="Message"></textarea>
+						<button class="single-post_send-message-btn">Send message</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<img src="img/logoFooter.png" alt="">
+		<div class="socials_wrapper">
+			<i class="fab fa-facebook-f"></i>
+			<i class="fab fa-google-plus-g"></i>
+			<i class="fab fa-twitter"></i>
+			<i class="fab fa-linkedin-in"></i>
+			<i class="fas fa-basketball-ball"></i>
+			<i class="fab fa-pinterest-p"></i>
+			<i class="fab fa-instagram"></i>
+		</div>
+		<p>© 2016 <span>Mulitix Theme</span> by ThemeForces. All Rights Reserved.</p>
+	</footer>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
